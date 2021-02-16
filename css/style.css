@@ -1,0 +1,123 @@
+html {
+    min-height: 100%;
+    min-width: 100%;
+    }
+    
+ body {
+    width: 1600px;
+    margin: 0 auto;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Laila', sans-serif;   
+    height:1080px;
+    background-color: black;
+/* max-height: 100vh; */
+padding: 0;
+overflow: hidden;
+color: white;
+
+}
+#bg{
+    /* background: linear-gradient(-45deg, #ff9c8f, #f78ca3, #e597e2, #ebbaff, #3dcfe9, #f980fd);
+	background-size:300% 200%;
+	animation: gradient 15s ease infinite; */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.55)),url(../images/bg02.jpg) ;
+    background-repeat:no-repeat;
+    height: 100vh;
+    width: 100%;
+    /* position: absolute; */
+    /* margin :0 auto; */
+    margin-top:-9.6em;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container {
+    width: 400px;
+    height: 200px;
+    margin: 8em auto;
+     margin-top: 2em;
+    margin-left: 3em;
+     position: absolute; 
+    left:150px;
+    font-size: larger;
+    
+    display: block;
+
+}
+.container h1{
+    font-size: 2em;
+    text-align: center;
+    background: rgb(1, 6, 77);
+    width: 70%;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.15em rgb(81, 255, 246);
+    margin-left: 1em;
+
+}
+#ins{
+    font-size: 1.8em;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border-width: 0;   
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border-radius: 1em;
+    box-shadow: 0.3em 0.2em rgb(81, 255, 246);
+    text-align: center;
+}
+
+#addTodo {
+    height: 51.5px;
+    width: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    vertical-align: middle;
+    font-size: 40px;
+    border-radius: 1em;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    margin-left:0.6em;
+    margin-top: 0.2em;
+    outline: none;
+
+}
+#addTodo:hover{
+    background: rgb(1, 6, 77);
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.to-dos {
+    margin-top: 25px;
+    
+}
+.instructions{
+    position: absolute;
+    top: 168px;
+    right: 150px;
+    font-size: 20px; 
+    line-height: 1em; 
+    font-weight: light;
+}
